@@ -18,4 +18,11 @@ Integer scale overlays have an additional configuration step. These configuratio
 
 Go to the Main Menu (use B button from the Quick Menu) > Settings > Video > Scaling > Integer Scale set to On and use the appropiate overlay configuration file.
 
+### Game Boy Advance Bottom Bezel
+
+The GBA_bottom.cfg overlay requires a video filter to offset the game display to the top of the screen.
+
+Go to the Main Menu (use B button from the Quick Menu) > Settings > Video > Video Filter > GBA > Filters for overlays > GBAOffset.filt
+
+## Acknowledgements
 Big thanks to the [Onion OS](https://github.com/OnionUI/Onion) devs and everyone who contribute themes and overlays to the [Miyoo Mini](https://www.reddit.com/r/MiyooMini/) and [SBCGaming](https://www.reddit.com/r/SBCGaming/) subreddits. **Enjoy!**
