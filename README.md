@@ -1,5 +1,5 @@
 # drkhrse Miyoo Bezels
-My 4:3 bezels for Retroarch, originally created for Onion OS on the Miyoo Mini+. This set covers the Game Boy (original DMG, Pocket, and Color) and Game Boy Advanced. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio.
+My 4:3 bezels for Retroarch, originally created for Onion OS on the Miyoo Mini+. This set covers the Game Boy (DMG, Pocket, and Color) and Game Boy Advanced. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio.
 
 ![Screenshot](/screenshots/Overview.png)
 
