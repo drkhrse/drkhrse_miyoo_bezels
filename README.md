@@ -1,5 +1,5 @@
 # drkhrse Miyoo Bezels
-My 4:3 bezels for RetroArch, originally created for [Onion OS](https://github.com/OnionUI/Onion) on the Miyoo Mini+. This set covers the Game Boy (DMG, Pocket, and Color) and Game Boy Advanced. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio.
+My 4:3 bezels for RetroArch, originally created for [Onion OS](https://github.com/OnionUI/Onion) on the Miyoo Mini+. This set covers the Game Boy (DMG, Pocket, and Color) and Game Boy Advanced. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio. Also added bezels based upon offset video filters that were added by [Jeltr0n](https://github.com/OnionUI/Onion/discussions/708).
 
 ![Screenshot](/screenshots/Overview.png)
 
@@ -12,17 +12,70 @@ Open game and then go to the [Quick Menu](https://github.com/OnionUI/Onion/wiki/
 
 Save your configuration afterwards in Quick Menu > Overrides at the Core, Content Directory or per Game level. More info on the setting on the [Onion OS Wiki - How do I save RetroArch settings](https://github.com/OnionUI/Onion/wiki/Frequently-Asked-Questions-%28FAQ%29#how-do-i-save-retroarch-settings) or [here](https://docs.libretro.com/guides/overrides/).
 
-### Integer Scale Overlays
+## Integer Scale Overlays
 
 Integer scale overlays have an additional configuration step. These configuration files have "int" in the name.
 
 Go to the Main Menu (use B button from the Quick Menu) > Settings > Video > Scaling > Integer Scale set to On and use the appropiate overlay configuration file.
 
-### Game Boy Advance Bottom Bezel
+## Game Boy Pocket / Light - Offset Overlays
 
-The GBA_bottom.cfg overlay requires a video filter to offset the game display to the top of the screen.
+Use the following settings ([per Jeltr0n's Overlays](https://github.com/OnionUI/Onion/discussions/708))
 
-Go to the Main Menu (use B button from the Quick Menu) > Settings > Video > Video Filter > GBA > Filters for overlays > GBAOffset.filt
+- Quick Menu > Core Options
+  - GB Colorization= internal
+  - Current category for palettes = Essentials
+- Color Categories
+  - Essentials = (GB-DMG for the original green gameboy palette or GB-Pocket for the pocket grayscale palette)
+
+- Settings
+  - Video
+    - Scaling
+      - Integer Scale= ON
+      - Keep Aspect Ratio= ON
+      - Video Filter= /GB-GBC/Filters for overlays/(DMG_GreenGrid for green color scheme, GBP_GrayGrid for gray pocket style) (there does not seem to be one built for Game Boy Light colors yet)
+  - On-Screen Display
+    - On-Screen Overlay
+      - Display overlay= ON
+      - Overlay Preset= /bezels/drkhrse_miyoo_bezels/GBOffset (filter required)/GBP.cfg (-Noise is an optional variant that replicates the reflective backing of the gb screen) or GBL.cfg
+      - Overlay Opacity= 1.00
+
+## Game Boy Color - Offset Overlay
+
+- Quick Menu > Core Options
+  - Color Correction = GBC Only (set to OFF if you prefer ultra-saturated unrealistic colors)
+  - Color Correction Mode = Accurate for very desaturated, Fast for mild desaturation
+
+- Settings
+  - Video
+    - Scaling
+      - Integer Scale = ON
+      - Keep Aspect Ratio = ON
+      - Video Filter = /GB-GBC/filters for overlays/GBC_DarkGridReshade
+  - On-Screen Display
+    - On-Screen Overlay
+      - Display overlay = ON
+      - Overlay Preset = /bezels/drkhrse_miyoo_bezels/GBOffset (filter required)/GBC.cfg
+      - Overlay Opacity = 1.00
+
+## Game Boy Advance - Offset Overlay
+
+- Quick Menu > Core Options
+  - Color Correction= ON for realistic color, OFF for saturated color
+
+- Settings
+  - Video
+    - Scaling
+      - Integer Scale = OFF
+      - Keep Aspect Ratio = ON
+      - Video Filter = /GBA/filters for overlays/GBAOffset
+  - On-Screen Display
+    - On-Screen Overlay
+      - Display overlay = ON
+      - Overlay Preset = /bezels/drkhrse_miyoo_bezels/GBOffset (filter required)/GBA__(Choose if you want grid or scanline)_(The number represents how opaque the effect will be)**
+      - Overlay Opacity = 1.00
+
+** (There seems to be a bug in some of the recent betas that causes yellow dots to show up under the overlay currently for GBA Grid overlays)
 
 ## Acknowledgements
 Big thanks to the [Onion OS](https://github.com/OnionUI/Onion) devs and everyone who contribute themes and overlays to the [Miyoo Mini](https://www.reddit.com/r/MiyooMini/) and [SBCGaming](https://www.reddit.com/r/SBCGaming/) subreddits. **Enjoy!**
