@@ -1,5 +1,5 @@
 # drkhrse Miyoo Bezels
-My 4:3 bezels for RetroArch, originally created for [Onion OS](https://github.com/OnionUI/Onion) on the Miyoo Mini+. This set covers the Game Boy (DMG, Pocket, and Color) and Game Boy Advanced. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio. Also added bezels based upon offset video filters that were added by [Jeltr0n](https://github.com/OnionUI/Onion/discussions/708).
+My 4:3 bezels for RetroArch, originally created for [Onion OS](https://github.com/OnionUI/Onion) on the Miyoo Mini+. This set covers the Game Boy (DMG, Pocket, and Color), Game Boy Advance, and Neo Geo Pocket. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio. Also added bezels based upon offset video filters that were added by [Jeltr0n](https://github.com/OnionUI/Onion/discussions/708).
 
 ![Screenshot](/screenshots/Overview.png)
 
@@ -73,6 +73,18 @@ Use the following settings ([per Jeltr0n's Overlays](https://github.com/OnionUI/
     - On-Screen Overlay
       - Display overlay = ON
       - Overlay Preset = /bezels/drkhrse_miyoo_bezels/GBOffset (filter required)/GBA__(Choose if you want grid or scanline)_(The number represents how opaque the effect will be)
+      - Overlay Opacity = 1.00
+
+## Neo Geo Pocket Color
+- Settings
+  - Video
+    - Scaling
+      - Integer Scale = OFF
+      - Keep Aspect Ratio = ON
+  - On-Screen Display
+    - On-Screen Overlay
+      - Display overlay = ON
+      - Overlay Preset = /bezels/drkhrse_miyoo_bezels/NGP or NGPC
       - Overlay Opacity = 1.00
 
 ## Acknowledgements
