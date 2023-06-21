@@ -72,10 +72,8 @@ Use the following settings ([per Jeltr0n's Overlays](https://github.com/OnionUI/
   - On-Screen Display
     - On-Screen Overlay
       - Display overlay = ON
-      - Overlay Preset = /bezels/drkhrse_miyoo_bezels/GBOffset (filter required)/GBA__(Choose if you want grid or scanline)_(The number represents how opaque the effect will be)**
+      - Overlay Preset = /bezels/drkhrse_miyoo_bezels/GBOffset (filter required)/GBA__(Choose if you want grid or scanline)_(The number represents how opaque the effect will be)
       - Overlay Opacity = 1.00
-
-** (There seems to be a bug in some of the recent betas that causes yellow dots to show up under the overlay currently for GBA Grid overlays)
 
 ## Acknowledgements
 Big thanks to the [Onion OS](https://github.com/OnionUI/Onion) devs and everyone who contribute themes and overlays to the [Miyoo Mini](https://www.reddit.com/r/MiyooMini/) and [SBCGaming](https://www.reddit.com/r/SBCGaming/) subreddits. **Enjoy!**
