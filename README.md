@@ -1,7 +1,7 @@
 # drkhrse Miyoo Bezels
 My 4:3 bezels for RetroArch, originally created for [Onion OS](https://github.com/OnionUI/Onion) on the Miyoo Mini+. This set covers the Game Boy (DMG, Pocket, and Color), Game Boy Advance, Game Gear, and Neo Geo Pocket. My intention was to create overlays that are darker than most of the defaults and also have more full screen options with the Game Boy default aspect ratio. Also added bezels based upon offset video filters that were added by [Jeltr0n](https://github.com/OnionUI/Onion/discussions/708).
 
-![Screenshot](/screenshots/Overview.png)
+![Screenshot](/screenshots/Overview.png?)
 
 ## Installation
 For an Onion OS formatted SD card, copy the entire **drkhrse_miyoo_bezels** folder to RetroArch\.retroarch\overlay\bezels\
