@@ -88,4 +88,4 @@ Use the following settings ([per Jeltr0n's Overlays](https://github.com/OnionUI/
       - Overlay Opacity = 1.00
 
 ## Acknowledgements
-Big thanks to the [Onion OS](https://github.com/OnionUI/Onion) devs and everyone who contribute themes and overlays to the [Miyoo Mini](https://www.reddit.com/r/MiyooMini/) and [SBCGaming](https://www.reddit.com/r/SBCGaming/) subreddits. **Enjoy!**
+Big thanks to the [Onion OS](https://github.com/OnionUI/Onion) devs and everyone who contribute to the community at the Retro Game Handhelds discord. **Enjoy!*
