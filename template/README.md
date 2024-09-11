@@ -2,7 +2,7 @@ Photoshop source files provided as is. It was organized only enough for my own s
 
 Additional fonts that are used in the files.
 - [ArTarumianKamar](https://www.whatfontis.com/FF_ArTarumianKamar.font)
-- [HelveticaNeue Medium](https://www.myfonts.com/collections/neue-helvetica-font-linotype)
+- [Helvetica Neue - Light, Medium, Light Condensed, Medium Condensed](https://www.myfonts.com/collections/neue-helvetica-font-linotype)
 - [Pico 8](https://www.lexaloffle.com/bbs/?tid=3760)
 - [VeneerClean Round](https://yellowdesignstudio.com/collections/veneer-clean)
-
+- [Bauhaus Std Bold](https://www.myfonts.com/products/std-bold-177552-bauhaus-368331)
