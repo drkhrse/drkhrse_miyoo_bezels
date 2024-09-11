@@ -104,4 +104,4 @@ Go to the Main Menu (use B button from the Quick Menu) > Settings > Video > Scal
 </details>
 
 ## Acknowledgements
-Big thanks to [Jeltron](https://github.com/Jeltr0n), the [Onion OS](https://github.com/OnionUI/Onion) and [Spruce](https://github.com/spruceUI/spruceOS) devs, Russ at [Retro Game Corps](https://retrogamecorps.com/), and everyone who contribute to the community at the Retro Game Handhelds discord and Reddit. **Enjoy!*
+Big thanks to [Jeltron](https://github.com/Jeltr0n) for their overlay work, the [Onion OS](https://github.com/OnionUI/Onion) and [Spruce](https://github.com/spruceUI/spruceOS) devs, Russ at [Retro Game Corps](https://retrogamecorps.com/), and everyone who contribute to the community at the Retro Game Handhelds discord and Reddit. **Enjoy!*
