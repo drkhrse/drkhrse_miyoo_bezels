@@ -1,4 +1,4 @@
-Photoshop source files provided as is. It was organized only enough for my own sanity so I apologize in advance for it not being as clear and documented as it should be. Separate files were created for different system aspect ratios.
+Photoshop source files provided as is. It was organized only enough for my own sanity so I apologize in advance for it not being as clear and documented as it should be. Bezel text was recreated whenever possible with the closest fonts that I could find. Separate files were created for different system aspect ratios.
 
 Additional fonts that are used in the files.
 - [ArTarumianKamar](https://www.whatfontis.com/FF_ArTarumianKamar.font)
